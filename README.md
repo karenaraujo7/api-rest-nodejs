@@ -8,7 +8,7 @@
 # Regras de negócio
 
 - [v] A transação pode ser do tipo crédito que somará ao valor total, ou débito que subtrairá
-- [ ] Deve ser possivel identificarmos o usuário entre as requisições
-- [ ] Ousuário o só pode visualizar trasações o qual ele criou
+- [v] Deve ser possivel identificarmos o usuário entre as requisições
+- [v] Ousuário o só pode visualizar trasações o qual ele criou
 
 
