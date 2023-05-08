@@ -6,6 +6,7 @@
   "scripts": {
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
     "dev": "tsx watch src/server.ts",
+    "build" : "tsup src",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest"
   },
@@ -26,6 +27,7 @@
     "@types/supertest": "^2.0.12",
     "eslint": "^8.37.0",
     "supertest": "^6.3.3",
+    "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.3",
     "vitest": "^0.30.1"
